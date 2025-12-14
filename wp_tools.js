@@ -1,1 +1,1 @@
-javascript:(function(){var o={script:"wp_script_list.js"};var d=document;var s=d.createElement("script");s.src="https://hamako0.github.io/bookmarlet_hama/"+o.script;d.body.appendChild(s);d.body.removeChild(s)})()
+javascript:(function(){var o={script:"wp_script_list.js"};var d=document;var s=d.createElement("script");s.src="https://hamako0.github.io/bookmarklet_hama/"+o.script;d.body.appendChild(s);d.body.removeChild(s)})()
