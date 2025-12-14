@@ -3,7 +3,7 @@ try {
     (($) => {
       window.$ = $;
       let timestamp = new Date().getTime();
-      let dir = "https://hamako0.github.io/wp_tools/wp_drop";
+      let dir = "https://hamako0.github.io/bookmarklet_hama/wp_drop";
       jQuery("body")
         .append('<div id="root"></div>')
         .append(`<link rel="stylesheet" href="${dir}/css/main.css?${timestamp}">`)
