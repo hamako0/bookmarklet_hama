@@ -131,7 +131,7 @@ try {
           const d = document;
           const s = d.createElement('script');
           s.type = 'text/javascript';
-          s.src = 'https://hamako0.github.io/wp_tools/' + o.script + '/' + o.script + '.js';
+          s.src = 'https://hamako0.github.io/bookmarklet_hama/' + o.script + '/' + o.script + '.js';
           d.body.appendChild(s);
           d.body.removeChild(s);
         })();
