@@ -73,15 +73,16 @@ try {
       const epressbs = $(`
     <p>制作補助ツール</p>
     <ul id="script_list">
-      <li><button id="wp_default_data_setting">初期設定</button></li>
+      <!-- <li><button id="wp_default_data_setting">初期設定</button></li> -->
       <li><button id="wp_drop">自動投入（固定）</button></li>
-      <li><button id="wp_auto_post">自動投入（投稿）</button></li>
-      <li><button id="wp_meta">メタ情報自動設定</button></li>
+      <!-- <li><button id="wp_auto_post">自動投入（投稿）</button></li> -->
+      <li><button id="wp_drop_slug">自動投入（固定）（サブディレクトリ運営）</button></li>
+      <!-- <li><button id="wp_meta">メタ情報自動設定</button></li> -->
       <li><button id="wp_upload">ファイルアップロード</button></li>
-      <li><button id="wp_contact_mail_build">問い合わせメール自動生成</button></li>
-      <li><button id="wp_media">メディアアップロード</button></li>
-      <li><button id="wp_mts_data_setting">MTS初期設定</button></li>
-      <li><button id="wp_fastest">高速化設定</button></li>
+      <!-- <li><button id="wp_contact_mail_build">問い合わせメール自動生成</button></li> -->
+      <!-- <li><button id="wp_media">メディアアップロード</button></li> -->
+      <!-- <li><button id="wp_mts_data_setting">MTS初期設定</button></li> -->
+      <!-- <li><button id="wp_fastest">高速化設定</button></li> -->
     </ul>
     ` + style + `
   `);
@@ -109,13 +110,14 @@ try {
       const seed = $(`
     <p>HPシードWPオプション制作補助ツール</p>
     <ul id="script_list">
-      <li><button id="wp_default_data_setting">初期設定</button></li>
+      <!-- <li><button id="wp_default_data_setting">初期設定</button></li> -->
       <li><button id="wp_drop">自動投入（固定）</button></li>
-      <li><button id="wp_auto_post">自動投入（投稿）</button></li>
-      <li><button id="wp_meta">メタ情報自動設定</button></li>
+      <!-- <li><button id="wp_auto_post">自動投入（投稿）</button></li> -->
+      <li><button id="wp_drop_slug">自動投入（固定）（サブディレクトリ運営）</button></li>
+      <!-- <li><button id="wp_meta">メタ情報自動設定</button></li> -->
       <li><button id="wp_upload">ファイルアップロード</button></li>
-      <li><button id="wp_contact_mail_build">問い合わせメール自動生成</button></li>
-      <li><button id="wp_media">メディアアップロード</button></li>
+      <!-- <li><button id="wp_contact_mail_build">問い合わせメール自動生成</button></li> -->
+      <!-- <li><button id="wp_media">メディアアップロード</button></li> -->
     </ul>
     ` + style + `
   `);
